@@ -1,6 +1,6 @@
 # FFMPEG::ScreenRecorder
 
-### :warning: This gem is not longer maintained. Please use [screen-recorder](https://github.com/kapoorlakshya/screen-recorder) gem :warning:
+### :warning: This gem is no longer maintained. Please use [screen-recorder](https://github.com/kapoorlakshya/screen-recorder) gem. :warning:
 <br />
 <br />
 
