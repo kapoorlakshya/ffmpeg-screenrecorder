@@ -1,10 +1,12 @@
 # FFMPEG::ScreenRecorder
 
+### :warning: This gem is not longer maintained. Please use [screen-recorder](https://github.com/kapoorlakshya/screen-recorder) gem :warning:
+<br />
+<br />
+
 [![Gem Version](https://badge.fury.io/rb/ffmpeg-screenrecorder.svg)](https://badge.fury.io/rb/ffmpeg-screenrecorder)
 ![https://rubygems.org/gems/ffmpeg-screenrecorder](https://ruby-gem-downloads-badge.herokuapp.com/ffmpeg-screenrecorder?type=total)
 [![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](https://www.rubydoc.info/github/kapoorlakshya/ffmpeg-screenrecorder/master)
-[![Build Status](https://travis-ci.org/kapoorlakshya/ffmpeg-screenrecorder.svg?branch=master)](https://travis-ci.org/kapoorlakshya/ffmpeg-screenrecorder)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a176dc755e06a23e5db8/maintainability)](https://codeclimate.com/github/kapoorlakshya/ffmpeg-screenrecorder/maintainability)
 
 Ruby gem to record your computer screen - desktop or specific
 application/window - using [FFmpeg](https://www.ffmpeg.org/). Primarily

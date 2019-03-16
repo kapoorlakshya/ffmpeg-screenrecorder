@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email       = ['kapoorlakshya@gmail.com']
   spec.homepage    = 'http://github.com/kapoorlakshya/ffmpeg-screenrecorder'
   spec.summary     = 'Record your computer screen using ffmpeg via Ruby.'
-  spec.description = 'Record your computer screen - desktop or specific application/window - using FFmpeg (https://www.ffmpeg.org).'
+  spec.description = 'Record your computer screen - desktop or specific application/window - using FFmpeg (https://www.ffmpeg.org). NOTE: This gem is not longer maintained. Please use screen-recorder gem.'
   spec.license     = 'MIT'
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
@@ -28,7 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'os', '~> 0.9.0'
   spec.add_runtime_dependency 'streamio-ffmpeg', '~> 1.0'
 
-  spec.post_install_message = 'PLEASE NOTE: ffmpeg-screenrecorder will soon be renamed to screen-recorder.\n' \
-  'Please refer to Issue #45 on GitHub for more information ' \
-  '(https://github.com/kapoorlakshya/ffmpeg-screenrecorder/issues/45). Thank you!'
+  spec.post_install_message = 'PLEASE NOTE: ffmpeg-screenrecorder gem has been re-released as screen-recorder gem.\n' \
+  'This gem will no longer be maintained. Thank you!'
 end
